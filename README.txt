@@ -28,4 +28,5 @@ virtualenv --no-site-packages pylons
 cd pylons
 source bin/activate
 pip install -r REQUIREMENTS
-git clone "nerd herd url" 
+git clone git://github.com/askedrelic/nerdherd-pylons.git
+paster serve --reload development.ini
