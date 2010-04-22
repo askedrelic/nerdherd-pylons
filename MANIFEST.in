@@ -1,0 +1,3 @@
+include nerdherd/config/deployment.ini_tmpl
+recursive-include nerdherd/public *
+recursive-include nerdherd/templates *
